@@ -83,6 +83,7 @@ body {
   background: var(--background);
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 ::selection {
@@ -346,7 +347,7 @@ p {
   align-items: flex-end;
   padding-top: var(--header-height);
   padding-bottom: 6rem;
-  overflow: visible;
+  overflow: hidden;
   background: var(--background);
 }
 
@@ -377,13 +378,15 @@ p {
 }
 
 .hero h1 {
-  font-size: clamp(3rem, 7vw, 7rem);
-  line-height: 0.95;
+  font-size: clamp(2.2rem, 6vw, 6rem);
+  line-height: 1;
   margin-bottom: 2rem;
   font-style: italic;
   opacity: 0;
   transform: translateY(30px);
   animation: fadeInUp 0.8s ease forwards;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .hero-text {
