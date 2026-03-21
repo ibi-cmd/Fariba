@@ -378,15 +378,13 @@ p {
 }
 
 .hero h1 {
-  font-size: clamp(2.2rem, 6vw, 6rem);
+  font-size: clamp(2rem, 8vw, 6rem);
   line-height: 1;
   margin-bottom: 2rem;
   font-style: italic;
   opacity: 0;
   transform: translateY(30px);
   animation: fadeInUp 0.8s ease forwards;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
 }
 
 .hero-text {
@@ -1650,6 +1648,22 @@ p {
 }
 
 @media (max-width: 480px) {
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  .hero {
+    padding-bottom: 3rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text {
+    font-size: 0.95rem;
+  }
+
   .hero-buttons {
     flex-direction: column;
     align-items: stretch;
