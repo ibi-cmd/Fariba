@@ -346,7 +346,7 @@ p {
   align-items: flex-end;
   padding-top: var(--header-height);
   padding-bottom: 6rem;
-  overflow: hidden;
+  overflow: visible;
   background: var(--background);
 }
 
@@ -377,8 +377,8 @@ p {
 }
 
 .hero h1 {
-  font-size: clamp(3.5rem, 9vw, 9rem);
-  line-height: 0.9;
+  font-size: clamp(3rem, 7vw, 7rem);
+  line-height: 0.95;
   margin-bottom: 2rem;
   font-style: italic;
   opacity: 0;
