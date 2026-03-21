@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galerie von Top Haircut Wien – Impressionen aus unserem Salon, Haarschnitte, Färbungen und mehr.">
+  <meta property="og:title" content="Galerie – Top Haircut | Fariba Ranaey">
+  <meta property="og:description" content="Impressionen aus unserem Salon – Haarschnitte, Färbungen und Salon-Ambiente.">
+  <meta property="og:type" content="website">
+  <title>Galerie – Top Haircut | Fariba Ranaey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">Top Haircut</a>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="about.html">Über uns</a></li>
+          <li><a href="services.html">Leistungen</a></li>
+          <li><a href="gallery.html" class="active">Galerie</a></li>
+          <li><a href="contact.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="btn btn-primary">Termin buchen</a>
+      <button class="hamburger" aria-label="Menü öffnen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="hero-label">Unsere Arbeiten</span>
+      <h1>Die <span class="accent">Galerie</span></h1>
+      <p class="page-subtitle">Einblicke in unsere Arbeit und unseren Salon</p>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Filters -->
+      <div class="gallery-filters fade-in">
+        <button class="category-btn active" data-category="all">Alle</button>
+        <button class="category-btn" data-category="schnitte">Haarschnitte</button>
+        <button class="category-btn" data-category="farben">Färbungen</button>
+        <button class="category-btn" data-category="salon">Salon</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+        <div class="gallery-item fade-in" data-category="schnitte">
+          <div class="placeholder-img" style="background: linear-gradient(135deg, #1a1919, #262626);">
+            <span class="material-symbols-outlined" style="color: var(--primary);">content_cut</span>
+          </div>
+          <div class="overlay"><span class="material-symbols-outlined">zoom_in</span></div>
+        </div>
+        <div class="gallery-item fade-in" data-category="farben">
+          <div class="placeholder-img" style="background: linear-gradient(135deg, #201f1f, #2c2c2c);">
+            <span class="material-symbols-outlined" style="color: var(--secondary);">palette</span>
+          </div>
+          <div class="overlay"><span class="material-symbols-outlined">zoom_in</span></div>
+        </div>
+        <div class="gallery-item fade-in" data-category="salon">
+          <div class="placeholder-img" style="background: linear-gradient(135deg, #131313, #1a1919);">
+            <span class="material-symbols-outlined" style="color: var(--primary);">store</span>
+          </div>
+          <div class="overlay"><span class="material-symbols-outlined">zoom_in</span></div>
+        </div>
+        <div class="gallery-item fade-in" data-category="schnitte">
+          <div class="placeholder-img" style="background: linear-gradient(135deg, #262626, #1a1919);">
+            <span class="material-symbols-outlined" style="color: var(--secondary);">content_cut</span>
+          </div>
+          <div class="overlay"><span class="material-symbols-outlined">zoom_in</span></div>
+        </div>
+        <div class="gallery-item fade-in" data-category="farben">
+          <div class="placeholder-img" style="background: linear-gradient(135deg, #1a1919, #201f1f);">
+            <span class="material-symbols-outlined" style="color: var(--primary);">palette</span>
+          </div>
+          <div class="overlay"><span class="material-symbols-outlined">zoom_in</span></div>
+        </div>
+        <div class="gallery-item fade-in" data-category="salon">
+          <div class="placeholder-img" style="background: linear-gradient(135deg, #201f1f, #131313);">
+            <span class="material-symbols-outlined" style="color: var(--secondary);">store</span>
+          </div>
+          <div class="overlay"><span class="material-symbols-outlined">zoom_in</span></div>
+        </div>
+        <div class="gallery-item fade-in" data-category="schnitte">
+          <div class="placeholder-img" style="background: linear-gradient(135deg, #131313, #262626);">
+            <span class="material-symbols-outlined" style="color: var(--primary);">content_cut</span>
+          </div>
+          <div class="overlay"><span class="material-symbols-outlined">zoom_in</span></div>
+        </div>
+        <div class="gallery-item fade-in" data-category="farben">
+          <div class="placeholder-img" style="background: linear-gradient(135deg, #262626, #201f1f);">
+            <span class="material-symbols-outlined" style="color: var(--secondary);">palette</span>
+          </div>
+          <div class="overlay"><span class="material-symbols-outlined">zoom_in</span></div>
+        </div>
+        <div class="gallery-item fade-in" data-category="salon">
+          <div class="placeholder-img" style="background: linear-gradient(135deg, #1a1919, #131313);">
+            <span class="material-symbols-outlined" style="color: var(--primary);">store</span>
+          </div>
+          <div class="overlay"><span class="material-symbols-outlined">zoom_in</span></div>
+        </div>
+      </div>
+
+      <p class="price-note fade-in" style="margin-top: 3rem;">
+        Die Platzhalter werden durch echte Fotos aus dem Salon ersetzt.
+      </p>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Schließen">&times;</button>
+      <button class="lightbox-nav lightbox-prev" aria-label="Vorheriges Bild">&#8249;</button>
+      <button class="lightbox-nav lightbox-next" aria-label="Nächstes Bild">&#8250;</button>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container fade-in">
+      <h2>Gefällt Ihnen, was Sie sehen?</h2>
+      <p>Vereinbaren Sie einen Termin und lassen Sie sich von uns verwöhnen.</p>
+      <a href="contact.html" class="btn btn-primary">Termin buchen</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <span class="logo">Top Haircut</span>
+          <p>Professionelle Haarkunst mit persönlicher Note. Fariba Ranaey – Ihr Friseursalon in Wien 1050.</p>
+        </div>
+        <div class="footer-links-grid">
+          <div>
+            <span class="col-title">Navigation</span>
+            <a href="index.html">Startseite</a>
+            <a href="about.html">Über uns</a>
+            <a href="services.html">Leistungen</a>
+            <a href="gallery.html">Galerie</a>
+            <a href="contact.html">Kontakt</a>
+          </div>
+          <div>
+            <span class="col-title">Social</span>
+            <a href="https://www.instagram.com/faribaranaey/" target="_blank" rel="noopener">Instagram</a>
+            <a href="tel:+4315442285">Telefon</a>
+            <a href="mailto:faribaranaey309@gmail.com">E-Mail</a>
+          </div>
+          <div>
+            <span class="col-title">Adresse</span>
+            <a href="contact.html">Arbeitergasse 50</a>
+            <a href="contact.html">1050 Wien</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Top Haircut – Fariba Ranaey. Alle Rechte vorbehalten.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
