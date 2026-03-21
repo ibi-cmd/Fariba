@@ -1,6 +1,6 @@
 /* ============================================
    Top Haircut – Fariba Ranaey
-   JavaScript – Neon Noir Edition
+   JavaScript – Editorial Edition
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {

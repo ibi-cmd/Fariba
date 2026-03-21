@@ -1,6 +1,6 @@
 # Top Haircut – Fariba Ranaey
 
-Website für den Friseursalon **Top Haircut** von Fariba Ranaey, Arbeitergasse 50, 1050 Wien.
+Website für den Friseursalon **Top Haircut** von Fariba Ranaey, Billrothstraße 31, 1190 Wien.
 
 ---
 
@@ -119,7 +119,7 @@ Fariba/
 ├── gallery.html        Galerie
 ├── contact.html        Kontakt & Anfahrt
 ├── css/
-│   └── style.css       Stylesheet (Neon Noir Design)
+│   └── style.css       Stylesheet (Editorial Light Design)
 ├── js/
 │   └── main.js         Navigation, Lightbox, Filter, Animationen
 └── README.md
@@ -128,6 +128,7 @@ Fariba/
 ## Technologie
 
 - **Vanilla HTML/CSS/JS** – kein Framework, kein Build-Schritt
-- **Google Fonts** – Epilogue, Manrope, Space Grotesk
+- **Google Fonts** – Epilogue (Headlines), Manrope (Body/Labels)
 - **Material Symbols** – Icons (via Google CDN)
+- **Design** – Editorial Light, basierend auf Google Stitch-Export
 - Responsive Design für Desktop, Tablet & Mobile
