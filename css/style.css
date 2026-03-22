@@ -1891,6 +1891,30 @@ p {
   .service-sidebar h2::before {
     display: none;
   }
+
+  .services-main {
+    padding-top: 8rem;
+  }
+
+  .services-hero h1 {
+    font-size: 2rem;
+  }
+
+  .services-hero {
+    margin-bottom: 4rem;
+  }
+
+  .services-content {
+    padding: 0 1.25rem;
+  }
+
+  .service-sidebar h2 {
+    font-size: 1.8rem;
+  }
+
+  .treatments-header h2 {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 480px) {
