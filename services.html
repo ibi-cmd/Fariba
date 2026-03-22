@@ -2,7 +2,10 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#fbf9f9">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="description" content="Leistungen und Preise bei Top Haircut Wien. Haarschnitte, Färbungen und Styling für Damen, Herren und Kinder.">
   <meta property="og:title" content="Leistungen & Preise – Top Haircut | Fariba Ranaey">
   <meta property="og:description" content="Unsere Leistungen und Preise – Haarschnitte, Färbungen, Styling für die ganze Familie.">
@@ -36,20 +39,28 @@
     </div>
   </header>
 
-  <main style="padding-top: 12rem; padding-bottom: 6rem;">
+  <main class="services-main">
     <!-- Hero Header -->
-    <header class="container" style="margin-bottom: 8rem; text-align: center;">
-      <h1 style="font-style: italic; margin-bottom: 1.5rem;">Leistungen &amp; Preise</h1>
-      <p class="label" style="max-width: 500px; margin: 0 auto;">Professionelle Haarkunst für Damen, Herren und Kinder.</p>
+    <header class="container services-hero">
+      <h1>Leistungen &amp; Preise</h1>
+      <hr class="hero-rule">
+      <p class="label services-hero-sub">Professionelle Haarkunst für Damen, Herren und Kinder.</p>
+      <nav class="services-nav">
+        <a href="#damen">Damen</a>
+        <a href="#herren">Herren</a>
+        <a href="#behandlungen">Behandlungen</a>
+        <a href="#laser">Laser</a>
+        <a href="#hautverjuengung">Hautverjüngung</a>
+      </nav>
     </header>
 
-    <div style="max-width: 1400px; margin: 0 auto; padding: 0 2rem;">
+    <div class="services-content">
 
       <!-- Section 1: Damen -->
-      <section class="service-section fade-in" data-category="damen">
+      <section id="damen" class="service-section fade-in" data-category="damen">
         <div class="service-sidebar">
           <span class="label">01 — Damen</span>
-          <h2>Schnitt &amp; Styling</h2>
+          <h2 data-num="01">Schnitt &amp; Styling</h2>
           <div class="sidebar-img">
             <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5TtwrehicDA1rnm8datO_129_IGUboRkTh8XmQpuKlJEukqmUmb_FYQyPrWaUl2tU3D83NtcqVhBOm53nQouiVwFw0a0jYT-PovxNe5DPJg_m0omz1HP8rUDZTJjK9e2WtQLkWkgfUY4XWt0EeZCL9oPgWbnqYeMacAZsTSFCmMZD3pdATvNiKJr1qRiLvlicMs87D4SpMUSRgeGsfOHvREKC1QCbBR2DXnBKkj00K6kU7ol5Bnx6dKhwlIXgsJizFda5DyJZEdxW" alt="Schnitt & Styling">
           </div>
@@ -60,55 +71,55 @@
               <div class="service-name">Waschen, Schneiden, Föhnen <span class="trending-chip">Beliebt</span></div>
               <div class="service-desc">Inklusive Beratung und Styling</div>
             </div>
-            <div class="price">ab 45</div>
+            <div class="price"><span class="price-prefix">ab</span> 45<span class="price-currency">&thinsp;&euro;</span></div>
           </div>
           <div class="price-row">
             <div class="service-info">
               <div class="service-name">Schneiden & Föhnen</div>
               <div class="service-desc">Ohne Waschen</div>
             </div>
-            <div class="price">ab 35</div>
+            <div class="price"><span class="price-prefix">ab</span> 35<span class="price-currency">&thinsp;&euro;</span></div>
           </div>
           <div class="price-row">
             <div class="service-info">
               <div class="service-name">Waschen & Föhnen</div>
               <div class="service-desc">Inklusive Pflege</div>
             </div>
-            <div class="price">ab 25</div>
+            <div class="price"><span class="price-prefix">ab</span> 25<span class="price-currency">&thinsp;&euro;</span></div>
           </div>
           <div class="price-row">
             <div class="service-info">
               <div class="service-name">Färbung</div>
               <div class="service-desc">Ansatz oder Komplett</div>
             </div>
-            <div class="price">ab 50</div>
+            <div class="price"><span class="price-prefix">ab</span> 50<span class="price-currency">&thinsp;&euro;</span></div>
           </div>
           <div class="price-row">
             <div class="service-info">
               <div class="service-name">Strähnchen / Highlights</div>
               <div class="service-desc">Folien- oder Haubensträhnen</div>
             </div>
-            <div class="price">ab 60</div>
+            <div class="price"><span class="price-prefix">ab</span> 60<span class="price-currency">&thinsp;&euro;</span></div>
           </div>
           <div class="price-row">
             <div class="service-info">
               <div class="service-name">Balayage / Ombré <span class="trending-chip">Trending</span></div>
               <div class="service-desc">Natürlicher Farbverlauf</div>
             </div>
-            <div class="price">ab 80</div>
+            <div class="price"><span class="price-prefix">ab</span> 80<span class="price-currency">&thinsp;&euro;</span></div>
           </div>
           <div class="price-row">
             <div class="service-info">
               <div class="service-name">Hochsteckfrisur</div>
               <div class="service-desc">Für besondere Anlässe</div>
             </div>
-            <div class="price">ab 55</div>
+            <div class="price"><span class="price-prefix">ab</span> 55<span class="price-currency">&thinsp;&euro;</span></div>
           </div>
         </div>
       </section>
 
       <!-- Image Strip -->
-      <div class="image-strip" style="margin: 0 -2rem;">
+      <div class="image-strip">
         <div class="container">
           <div class="image-strip-grid">
             <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAe0NYVmlfhi92cCMcA5pfFHzUY1jiIdVDM2_am5Dn-1P2Hm3j-VvN2Hq-1Zo_1SUr7yj8XVqrOK01Nxao_8LjnF4RbImOA6FtXPGg6A9pfQDKC8ciVfCNBdYzR75gSGiBCYXDJQkM0QjFObTimei5bDKGw-YQTZ_WWMfi_4KOj1_M1Z449XXgbFCvrzViINaMXuCSetpP9a9USWW8L-C_4qY-yLLohab-59u1BJboankzkS7LwY52q1DP5RjMSmmrPyNlly2SAJcMH" alt="Salon Detail">
@@ -120,7 +131,7 @@
       </div>
 
       <!-- Section 2: Herren (reversed) -->
-      <section class="service-section reversed fade-in" data-category="herren" style="margin-top: 5rem;">
+      <section id="herren" class="service-section reversed fade-in" data-category="herren">
         <div class="service-items">
           <div class="price-table">
             <div class="price-row">
@@ -128,74 +139,156 @@
                 <div class="service-name">Waschen, Schneiden, Föhnen</div>
                 <div class="service-desc">Klassischer Herrenschnitt</div>
               </div>
-              <div class="price">ab 25</div>
+              <div class="price"><span class="price-prefix">ab</span> 25<span class="price-currency">&thinsp;&euro;</span></div>
             </div>
             <div class="price-row">
               <div class="service-info">
                 <div class="service-name">Maschinenschnitt</div>
                 <div class="service-desc">Eine Länge oder Fade</div>
               </div>
-              <div class="price">ab 18</div>
+              <div class="price"><span class="price-prefix">ab</span> 18<span class="price-currency">&thinsp;&euro;</span></div>
             </div>
             <div class="price-row">
               <div class="service-info">
                 <div class="service-name">Bart trimmen</div>
                 <div class="service-desc">Konturenschnitt und Pflege</div>
               </div>
-              <div class="price">ab 12</div>
+              <div class="price"><span class="price-prefix">ab</span> 12<span class="price-currency">&thinsp;&euro;</span></div>
             </div>
             <div class="price-row">
               <div class="service-info">
                 <div class="service-name">Komplett-Paket <span class="trending-chip">Beliebt</span></div>
                 <div class="service-desc">Haarschnitt + Bart</div>
               </div>
-              <div class="price">ab 35</div>
+              <div class="price"><span class="price-prefix">ab</span> 35<span class="price-currency">&thinsp;&euro;</span></div>
             </div>
             <div class="price-row">
               <div class="service-info">
                 <div class="service-name">Färbung Herren</div>
                 <div class="service-desc">Natürliche Grauabdeckung</div>
               </div>
-              <div class="price">ab 30</div>
+              <div class="price"><span class="price-prefix">ab</span> 30<span class="price-currency">&thinsp;&euro;</span></div>
             </div>
           </div>
         </div>
         <div class="service-sidebar">
           <span class="label">02 — Herren</span>
-          <h2>Herrenschnitte</h2>
+          <h2 data-num="02">Herrenschnitte</h2>
           <div class="sidebar-img">
             <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuArlsklI546-7JLTdNQA-4pjeFP-ItP3CJyTnUHI5hW0CZESGPVztkn3fYsRlibSqlGH4VT32-I1Dgotk5plzquRe_KpU9tiSjxxO-SlS_cEPLFP5JqE0sS8106yZluINhtXd4kkTdV_AK_ZBL3QXyUHp8ExHKufPWKR-fqB2H1XI03x7CSgL6mPUmS7FGfC9Y2zmRdshexxP-43vV3O1-OGApPKvCxne9DJ2ISe2repymxZz6AXTRsVdoI0m6h6iX_8YwefpiThJ7F" alt="Herrenschnitte">
           </div>
         </div>
       </section>
 
-      <!-- Section 3: Treatments (centered) -->
-      <section style="max-width: 800px; margin: 10rem auto; text-align: center;" class="fade-in">
-        <span class="label">03 — Pflege</span>
-        <h2 style="font-family: var(--font-headline); font-size: 3rem; margin: 1rem 0 4rem;">Behandlungen</h2>
-
-        <div style="margin-bottom: 4rem;">
-          <h3 style="font-family: var(--font-body); font-weight: 600; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 0.75rem;">Keratin-Behandlung</h3>
-          <p style="font-style: italic; max-width: 500px; margin: 0 auto 1rem;">Glättung und intensive Pflege für strapaziertes Haar.</p>
-          <span style="font-family: var(--font-headline); font-style: italic; font-size: 1.5rem;">ab 90</span>
+      <!-- Section 3: Behandlungen -->
+      <section id="behandlungen" class="treatments-section fade-in">
+        <div class="treatments-header">
+          <span class="label">03 — Pflege</span>
+          <h2>Behandlungen</h2>
         </div>
-
-        <div style="margin-bottom: 4rem;">
-          <h3 style="font-family: var(--font-body); font-weight: 600; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 0.75rem;">Olaplex-Behandlung</h3>
-          <p style="font-style: italic; max-width: 500px; margin: 0 auto 1rem;">Reparatur und Stärkung der Haarstruktur auf molekularer Ebene.</p>
-          <span style="font-family: var(--font-headline); font-style: italic; font-size: 1.5rem;">ab 30</span>
+        <div class="treatments-grid">
+          <div class="treatment-card">
+            <h3 class="treatment-name">Keratin-Behandlung</h3>
+            <p class="treatment-desc">Glättung und intensive Pflege für strapaziertes Haar.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 90<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+          <div class="treatment-card">
+            <h3 class="treatment-name">Olaplex-Behandlung</h3>
+            <p class="treatment-desc">Reparatur und Stärkung der Haarstruktur auf molekularer Ebene.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 30<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+          <div class="treatment-card">
+            <h3 class="treatment-name">Intensiv-Haarkur</h3>
+            <p class="treatment-desc">Tiefenpflege für geschädigtes und strapaziertes Haar.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 20<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+          <div class="treatment-card">
+            <h3 class="treatment-name">Kinder (bis 14 Jahre)</h3>
+            <p class="treatment-desc">Haarschnitte mit Geduld und Spaß für die Kleinsten.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 12<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
         </div>
+      </section>
 
-        <div style="margin-bottom: 4rem;">
-          <h3 style="font-family: var(--font-body); font-weight: 600; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 0.75rem;">Intensiv-Haarkur</h3>
-          <p style="font-style: italic; max-width: 500px; margin: 0 auto 1rem;">Tiefenpflege für geschädigtes und strapaziertes Haar.</p>
-          <span style="font-family: var(--font-headline); font-style: italic; font-size: 1.5rem;">ab 20</span>
+      <!-- Section 4: Laser-Haarentfernung -->
+      <section id="laser" class="treatments-section fade-in">
+        <div class="treatments-header">
+          <span class="label">04 — Laser</span>
+          <h2>Laser-Haarentfernung</h2>
+          <p class="treatments-intro">Dauerhafte Haarentfernung mit modernster Lasertechnologie – schonend, effektiv und für alle Hauttypen geeignet.</p>
         </div>
+        <div class="treatments-grid">
+          <div class="treatment-card">
+            <h3 class="treatment-name">Oberlippe</h3>
+            <p class="treatment-desc">Präzise Behandlung für den empfindlichen Gesichtsbereich.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 35<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+          <div class="treatment-card">
+            <h3 class="treatment-name">Kinn & Wangen</h3>
+            <p class="treatment-desc">Gesichtsbehaarung dauerhaft und sanft entfernen.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 50<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+          <div class="treatment-card">
+            <h3 class="treatment-name">Achseln</h3>
+            <p class="treatment-desc">Glatte Haut ohne Rasur – langanhaltend und schmerzarm.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 60<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+          <div class="treatment-card">
+            <h3 class="treatment-name">Bikinizone</h3>
+            <p class="treatment-desc">Schonende Behandlung für den Intimbereich.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 70<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+          <div class="treatment-card">
+            <h3 class="treatment-name">Beine komplett</h3>
+            <p class="treatment-desc">Ober- und Unterschenkel für seidig glatte Haut.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 150<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+          <div class="treatment-card">
+            <h3 class="treatment-name">Ganzkörper-Paket <span class="trending-chip">Beliebt</span></h3>
+            <p class="treatment-desc">Individuelles Paket für mehrere Körperzonen zum Vorteilspreis.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 250<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+        </div>
+      </section>
 
-        <div>
-          <h3 style="font-family: var(--font-body); font-weight: 600; font-size: 1rem; text-transform: uppercase; letter-spacing: 0.2em; margin-bottom: 0.75rem;">Kinder (bis 14 Jahre)</h3>
-          <p style="font-style: italic; max-width: 500px; margin: 0 auto 1rem;">Haarschnitte mit Geduld und Spaß für die Kleinsten.</p>
-          <span style="font-family: var(--font-headline); font-style: italic; font-size: 1.5rem;">ab 12</span>
+      <!-- Section 5: Hautverjüngung -->
+      <section id="hautverjuengung" class="treatments-section fade-in">
+        <div class="treatments-header">
+          <span class="label">05 — Skin Care</span>
+          <h2>Hautverjüngung</h2>
+          <p class="treatments-intro">Professionelle Gerätebehandlungen für ein strahlendes, jugendliches Hautbild – sichtbare Ergebnisse ab der ersten Sitzung.</p>
+        </div>
+        <div class="treatments-grid">
+          <div class="treatment-card">
+            <h3 class="treatment-name">Mikrodermabrasion</h3>
+            <p class="treatment-desc">Sanftes Peeling für einen ebenmäßigen, frischen Teint.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 65<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+          <div class="treatment-card">
+            <h3 class="treatment-name">Radiofrequenz-Lifting</h3>
+            <p class="treatment-desc">Straffung und Kollagenaufbau ohne Operation.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 90<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+          <div class="treatment-card">
+            <h3 class="treatment-name">LED-Lichttherapie</h3>
+            <p class="treatment-desc">Stimuliert die Zellerneuerung und reduziert Falten.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 55<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+          <div class="treatment-card">
+            <h3 class="treatment-name">Ultraschall-Behandlung</h3>
+            <p class="treatment-desc">Tiefenwirksame Pflege für Feuchtigkeit und Elastizität.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 75<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+          <div class="treatment-card">
+            <h3 class="treatment-name">Anti-Aging Kombi <span class="trending-chip">Premium</span></h3>
+            <p class="treatment-desc">Radiofrequenz + LED + Ultraschall als Intensivbehandlung.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 150<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
+          <div class="treatment-card">
+            <h3 class="treatment-name">Hydrafacial</h3>
+            <p class="treatment-desc">Reinigung, Peeling und Hydration in einer Behandlung.</p>
+            <span class="treatment-price"><span class="price-prefix">ab</span> 85<span class="price-currency">&thinsp;&euro;</span></span>
+          </div>
         </div>
       </section>
 
@@ -205,7 +298,7 @@
 
       <!-- CTA -->
       <section class="booking-section fade-in">
-        <div style="width: 1px; height: 8rem; background: var(--primary); margin: 0 auto 3rem;"></div>
+        <div class="booking-divider"></div>
         <h2>Beginnen Sie Ihre Verwandlung.</h2>
         <a href="contact.html" class="btn btn-primary">Termin buchen</a>
       </section>
