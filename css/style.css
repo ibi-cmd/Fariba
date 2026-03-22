@@ -1844,6 +1844,10 @@ p {
     grid-template-columns: 1fr;
   }
 
+  .image-strip {
+    display: none;
+  }
+
   .team-grid {
     grid-template-columns: 1fr;
   }
